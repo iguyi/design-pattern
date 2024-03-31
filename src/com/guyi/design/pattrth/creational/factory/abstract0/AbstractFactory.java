@@ -11,6 +11,7 @@ interface AbstractFactory {
     /**
      * 生产产品
      *
+     * @param type 产品类型
      * @return 产品
      */
     Product createProduct(String type);
