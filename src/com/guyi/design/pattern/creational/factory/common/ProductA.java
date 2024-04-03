@@ -1,4 +1,4 @@
-package com.guyi.design.pattrth.creational.factory.common;
+package com.guyi.design.pattern.creational.factory.common;
 
 /**
  * 具体产品 A

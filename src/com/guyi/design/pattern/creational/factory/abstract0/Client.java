@@ -1,4 +1,4 @@
-package com.guyi.design.pattrth.creational.factory.abstract0;
+package com.guyi.design.pattern.creational.factory.abstract0;
 
 /**
  * 客户端代码

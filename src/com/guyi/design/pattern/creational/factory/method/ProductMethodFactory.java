@@ -1,6 +1,6 @@
-package com.guyi.design.pattrth.creational.factory.method;
+package com.guyi.design.pattern.creational.factory.method;
 
-import com.guyi.design.pattrth.creational.factory.common.Product;
+import com.guyi.design.pattern.creational.factory.common.Product;
 
 /**
  * 工厂方法接口

@@ -1,8 +1,8 @@
-package com.guyi.design.pattrth.creational.factory.simple;
+package com.guyi.design.pattern.creational.factory.simple;
 
-import com.guyi.design.pattrth.creational.factory.common.Product;
-import com.guyi.design.pattrth.creational.factory.common.ProductA;
-import com.guyi.design.pattrth.creational.factory.common.ProductB;
+import com.guyi.design.pattern.creational.factory.common.Product;
+import com.guyi.design.pattern.creational.factory.common.ProductA;
+import com.guyi.design.pattern.creational.factory.common.ProductB;
 
 /**
  * 简单工厂类

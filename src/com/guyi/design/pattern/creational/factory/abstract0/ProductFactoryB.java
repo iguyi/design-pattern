@@ -1,6 +1,6 @@
-package com.guyi.design.pattrth.creational.factory.abstract0;
+package com.guyi.design.pattern.creational.factory.abstract0;
 
-import com.guyi.design.pattrth.creational.factory.common.Product;
+import com.guyi.design.pattern.creational.factory.common.Product;
 
 /**
  * 生产 B 类的工厂

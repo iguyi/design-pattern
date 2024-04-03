@@ -1,4 +1,4 @@
-package com.guyi.design.pattrth.creational.singleton;
+package com.guyi.design.pattern.creational.singleton;
 
 /**
  * 单例模式 - 静态内部类
