@@ -5,7 +5,7 @@ package com.guyi.design.pattern.structural.composite;
  *
  * @author 孤诣
  */
-public class Department extends Organization {
+public class Department extends BaseOrganization {
     public Department(String name) {
         super(name);
     }

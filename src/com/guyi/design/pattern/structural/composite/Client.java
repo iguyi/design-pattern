@@ -10,11 +10,11 @@ public class Client {
         System.out.println("========= 组合模式 =========");
 
         // 创建大学
-        Organization university = new University("大学");
+        BaseOrganization university = new University("大学");
 
         // 为大学添加学院
-        Organization college1 = new College("计算机学院");
-        Organization college2 = new College("信息工程学院");
+        BaseOrganization college1 = new College("计算机学院");
+        BaseOrganization college2 = new College("信息工程学院");
         university.add(college1);
         university.add(college2);
 

@@ -8,32 +8,27 @@ import java.util.List;
  *
  * @author 孤诣
  */
-public class College extends Organization {
+public class College extends BaseOrganization {
     /**
      * 子组织列表, 对应的是 Department
      *
      * @see Department
      */
-    private final List<Organization> childOrganizationList = new LinkedList<>();
+    private final List<BaseOrganization> childBaseOrganizationList = new LinkedList<>();
 
     public College(String name) {
         super(name);
     }
 
     @Override
-    protected void add(Organization organization) {
-        childOrganizationList.add(organization);
-    }
-
-    @Override
-    protected void remove(Organization organization) {
-        childOrganizationList.remove(organization);
+    protected void add(BaseOrganization baseOrganization) {
+        childBaseOrganizationList.add(baseOrganization);
     }
 
     @Override
     protected void print() {
         System.out.println("=========" + this.getName() + "=========");
-        childOrganizationList.forEach(Organization::print);
+        childBaseOrganizationList.forEach(BaseOrganization::print);
     }
 
     @Override
